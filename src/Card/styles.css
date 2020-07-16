@@ -1,0 +1,21 @@
+.cardContainer{
+    margin-bottom: 2vh;
+    border:black solid 1px;
+    padding: 2%;
+}
+
+.dueDateDisplay{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 32%;
+}
+
+.asignee{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.descriptionDisplay{
+    margin-bottom: 2%;
+}

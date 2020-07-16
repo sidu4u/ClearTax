@@ -1,0 +1,26 @@
+.cardModal{
+}
+
+.cardModalContent{
+    display: flex;
+    flex-direction: column;
+    padding:2%;
+}
+
+.stateWithDueDate{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3vh;
+}
+
+.asigneeSelect{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+.description{
+    margin-bottom: 3vh;
+}

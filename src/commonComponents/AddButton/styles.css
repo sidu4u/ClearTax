@@ -1,0 +1,7 @@
+.addButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black dashed 1px;
+    cursor: pointer;
+}
