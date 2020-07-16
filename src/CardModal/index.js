@@ -13,12 +13,15 @@ const CardModal = ({ card, onSave, closeModal }) => {
     const [asignee, changeAsignee] = useState(card?.asignee ?? "");
     const [state, changeState] = useState(card?.state ?? "");
     const [dueDate, changeDueDate] = useState(card?.dueDate ?? "");
-    const saveTask = useCallback(() => onSave(
-        description,
-        dueDate,
-        asignee,
-        state
-    ), [onSave, description, asignee, state, dueDate]);
+    const saveTask = useCallback(() => {
+        onSave(
+            description,
+            dueDate,
+            asignee,
+            state
+        );
+        closeModal();
+    }, [onSave, description, asignee, state, dueDate, closeModal]);
 
     return (
 
